@@ -34,9 +34,9 @@
                 </LinearGradient>
             </fill>
         </Text>
-        <TextField layoutX="77.0" layoutY="145.0" promptText="Username" />
-        <PasswordField layoutX="77.0" layoutY="187.0" promptText="Password" />
-        <Button layoutX="77.0" layoutY="237.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="53.0" text="Login" />
-      <Pane layoutX="366.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" styleClass="mainFxmlClass" stylesheets="@login.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        <TextField fx:id="usernameField" layoutX="77.0" layoutY="145.0" promptText="Username" />
+        <PasswordField fx:id="passwordField" layoutX="77.0" layoutY="187.0" promptText="Password" />
+        <Button layoutX="77.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="25.0" prefWidth="53.0" text="Login" />
+      <Pane layoutX="366.0" layoutY="100.0" opacity="0.7" prefHeight="200.0" prefWidth="200.0" styleClass="mainFxmlClass" stylesheets="@login.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
     </children>
 </AnchorPane>
