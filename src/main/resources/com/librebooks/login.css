@@ -4,5 +4,6 @@
 
 .mainFxmlClass {
     -fx-background-color: linear-gradient(to bottom right, red,purple);
+    -fx-background-radius: 10px;
     -fx-background-opacity: 0.5%;
 }
