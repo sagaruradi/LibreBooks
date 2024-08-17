@@ -14,8 +14,8 @@ import javafx.fxml.Initializable;
  * @author bhavy
  */
 public class AdminController implements Initializable {
- // Anshul is laid
-    //sagar
+ // Anshul is gay
+    //sagar is having his way
     /**
      * Initializes the controller class.
      */
