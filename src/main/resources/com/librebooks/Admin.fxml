@@ -2,6 +2,8 @@
 
 <?import javafx.scene.control.Button?>
 <?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
@@ -28,11 +30,12 @@
                                 <TextField layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="263.0" promptText="Search" AnchorPane.rightAnchor="47.0" AnchorPane.topAnchor="14.0" />
                                 <Button contentDisplay="CENTER" layoutX="953.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="33.0" AnchorPane.rightAnchor="46.66666666666663" AnchorPane.topAnchor="14.0">
                                     <graphic>
-                                        <ImageView fitHeight="20" fitWidth="20" preserveRatio="true">
+                                        <ImageView fitHeight="25.0" fitWidth="25.0" preserveRatio="true">
                                             <Image url="@search.png" />
                                         </ImageView>
                                     </graphic>
                                 </Button>
+                        <ScrollPane blendMode="SRC_ATOP" layoutX="14.0" layoutY="61.0" opacity="0.0" prefHeight="602.0" prefWidth="972.0" />
                             </children>
                         </AnchorPane>
                     </content>
