@@ -6,7 +6,10 @@ package com.librebooks;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
 /**
  * FXML Controller class
@@ -24,4 +27,15 @@ public class AdminController implements Initializable {
         // TODO
     }    
     
+    
+
+    
+    @FXML
+    private void searchButton(){
+    Image image = new Image(getClass().getResourceAsStream("/com/Images/search.png"));
+    ImageView imageView = new ImageView(image);
+    imageView.setFitHeight(20);
+    imageView.setFitWidth(20);
+    
+    }
 }
